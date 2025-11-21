@@ -1556,9 +1556,9 @@ dependencies = [
 
 [[package]]
 name = "yew_extra"
-version = "0.2.0"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e85e28a5945bdc56b29b93945b6fd61f69bbfbe9ba17d7c5cd114b839453b56c"
+checksum = "4974c95323a23194e6c383823e1e618a11dc7aff7929259c0755e1a39a6b7512"
 dependencies = [
  "axum",
  "dashmap",
@@ -1568,7 +1568,7 @@ dependencies = [
 
 [[package]]
 name = "yew_server_hook"
-version = "0.2.1"
+version = "0.3.0"
 dependencies = [
  "axum",
  "gloo-net 0.5.0",
