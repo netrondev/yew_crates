@@ -1,0 +1,23 @@
+[package]
+name = "yew_extra"
+authors = ["Rouan van der Ende (rouan@netron.dev)"]
+description = "Extract Axum request data within Yew server functions similar to how `leptos_axum` provides extraction helpers for Leptos"
+license = "MIT OR Apache-2.0"
+version = "0.3.0"
+edition = "2021"
+keywords = ["yew", "cookie", "session", "extract"]
+repository = "https://github.com/netrondev/yew_crates"
+categories = ["web-programming"]
+
+[features]
+ssr = []
+
+[dependencies]
+axum = { version = "0.8.6", optional = true }
+tokio = { version = "1", features = ["sync", "rt"], optional = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+axum = { version = "0.8.6" }
+tokio = { version = "1", features = ["sync", "rt"] }
+dashmap = "6.1"
+once_cell = "1.21"
