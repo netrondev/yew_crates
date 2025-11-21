@@ -2,7 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/yew_extra.svg)](https://crates.io/crates/yew_extra)
 [![Documentation](https://docs.rs/yew_extra/badge.svg)](https://docs.rs/yew_extra)
-[![License](https://img.shields.io/crates/l/yew_extra.svg)](https://github.com/yourusername/yew_extra#license)
+[![License](https://img.shields.io/crates/l/yew_extra.svg)](https://github.com/netrondev/yew_crates)
 
 Extract Axum request data within Yew server functions, similar to how `leptos_axum` provides extraction helpers for Leptos.
 
