@@ -1,6 +1,6 @@
 [package]
 name = "yew_server_hook"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Rouan van der Ende (rouan@netron.dev)"]
 description = "A procedural macro that generates both server-side API handlers and client-side Yew hooks from a single function definition"
