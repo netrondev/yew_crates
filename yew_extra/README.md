@@ -22,9 +22,8 @@ Extract Axum request data within Yew server functions, similar to how `leptos_ax
 
 Add this to your `Cargo.toml`:
 
-```toml
-[dependencies]
-yew_extra = "0.1"
+```sh
+cargo add yew_extra
 ```
 
 ## Usage
